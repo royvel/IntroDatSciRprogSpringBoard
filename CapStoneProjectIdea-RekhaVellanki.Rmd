@@ -1,0 +1,64 @@
+---
+title: "CapStoneProjectIdea"
+author: "Rekha Vellanki"
+date: "May 24, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+## Capstone Project Idea for Introduction to Data Science and R programming 
+
+## What is the problem you want to solve ?
+ 
+ 
+ 
+Cars are used by all aspects of a growing society. And, one of the most important factors to consider while purchasing a car is the fuel efficiency of the car.  The premise of this analysis is to understand the various factors influencing the fuel efficiency of a car.  Some of the factors of interest are engine cylinders, vehicle class, transmission type, high way vs city miles, drive axle etc.  These factors themselves are important considerations for most buyers and so it is important to understand their influence on fuel efficiency.   Fuel efficient cars not only benefit the buyers in terms of reducing fuel costs but they also serve to benefit environment by reducing the air pollution.  The analysis would also extend to predict the fuel cost savings, environment impacts based on air pollution score and GHG emissions based on miles per gallon.
+ 
+Goal of this project is to perform exploratory analysis on fuel economy based on the factors influencing the mile per gallon of different cars.  Also, predict the benefits of fuel economy on fuel costs, air pollution. 
+ 
+## Who is your client and why do they care about the problem?
+ 
+Potential car buyers, car owners wanting to cut fuel costs, environmental enthusiasts. Also, car manufacturers can benefit from looking at the benefits on environment and come up with more fuel efficient options.
+ 
+ 
+ 
+## What data are you going to use for this? How will you acquire this data?
+ 
+This dataset contains the fuel consumption (mile per gallon) data for different cars along with other features of the car like vehicle class, cylinders, axle type, transmission type, highway and city miles.  The data can be downloaded from the following site :
+ 
+https://www.fueleconomy.gov/feg/download.shtml
+
+Download Fuel Economy Data
+
+www.fueleconomy.gov
+
+Download Fuel Economy Data. Fuel economy data are the result of vehicle testing done at the Environmental Protection Agency's National Vehicle and Fuel Emissions Laboratory in Ann Arbor, Michigan, and by vehicle manufacturers with oversight by EPA.
+ 
+ 
+## Outline your approach to solving this problem :  
+Extract the data from the above data site. Perform the required data wrangling to get the data into R required format. Perform exploratory data analysis on the data to understand basic information like which cars and which models in different car brands are more fuel efficient. Then dive into details of various features of a car influencing the fuel consumption.  Predict how the fuel economy can be improved by increase in purchase of fuel efficient cars. And, the benefits on environment with cut down in fuel consumption.
+
