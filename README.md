@@ -7,3 +7,5 @@ Titanic.R is data visualization using ggplot and its different aesthetics and at
 Added Linear Regression Mini project (linear_regression_exercise) and the data file states.rds.
 9/22
 Added Logistic Regression Mini project(logistic_regression_exercrise) and the data file NatHealth2011.rds
+10/01
+Added Clustering exercise (MiniProject_clustering_exercise) 
