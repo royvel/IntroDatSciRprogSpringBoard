@@ -9,3 +9,5 @@ Added Linear Regression Mini project (linear_regression_exercise) and the data f
 Added Logistic Regression Mini project(logistic_regression_exercrise) and the data file NatHealth2011.rds
 10/01
 Added Clustering exercise (MiniProject_clustering_exercise) 
+10/19
+Added Machine Learning report (CapStonePrj-MachinglearningRmarkdown)
